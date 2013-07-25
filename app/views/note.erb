@@ -1,0 +1,7 @@
+<%if @note %>
+<h1><%= @note.subject %></h1>
+<%= @note.text %>
+<% end %>
+
+<form action="/" method="GET">
+<input type="submit" value="Home :)">
